@@ -1,3 +1,5 @@
+@import url('https://use.typekit.net/jds1ggw.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,5 +19,5 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins, Helvetica, sans-serif;
 }
