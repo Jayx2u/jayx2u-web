@@ -21,11 +21,11 @@ export default function AuroraBackgroundP() {
           Jayx2u
         </div>
         <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
-          I will eventually work on this site, for now check out my Caard :)
+          I will eventually work on this site, for now check out my Carrd :)
         </div>
         <a href="http://jayx2u.carrd.co">
         <button className="bg-black dark:bg-white rounded-full w-fit text-white dark:text-black px-4 py-2">
-          Caard
+          Carrd
         </button>
         </a>
       </motion.div>
