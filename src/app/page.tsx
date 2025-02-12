@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import React from "react";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 
+import Image from 'next/image'
+
 export default function AuroraBackgroundP() {
   return (
     <AuroraBackground>
@@ -17,9 +19,12 @@ export default function AuroraBackgroundP() {
         }}
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
-        <div className="text-9xl md:text-9xl font-adventures dark:text-white text-center">
-          Jayx2u
-        </div>
+        <Image
+          src="/teppy-under-construction.png"
+          alt="Under Construction"
+          width={470}
+          height={164}
+        />
         <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
           I will eventually work on this site, for now check out my Carrd :)
         </div>
@@ -28,6 +33,10 @@ export default function AuroraBackgroundP() {
           Carrd
         </button>
         </a>
+        <hr className="w-full border-t border-gray-700 dark:border-gray-300 my-4" />
+        <div className="text-8xl md:text-8xl font-adventures dark:text-white text-center">
+          Jayx2u
+        </div>
       </motion.div>
     </AuroraBackground>
   );
